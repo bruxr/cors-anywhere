@@ -167,6 +167,15 @@ export CORSANYWHERE_RATELIMIT='50 3 my.example.com my2.example.com'
 node server.js
 ```
 
+## Docker
+
+To run the docker container:
+
+```
+docker build .
+docker run -p 8080:8080
+```
+
 
 ## License
 
